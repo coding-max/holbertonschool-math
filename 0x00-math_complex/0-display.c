@@ -30,6 +30,8 @@ else if (c.im < 0)
 	else
 		printf("i\n");
 }
-else
+else if (c.re)
 	printf("\n");
+else
+	printf("0\n");
 }
